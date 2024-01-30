@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+.container{
+    margin:3% 10% 3% 18%;
+    width: 60%;
+    height:80%;
+    /* border: 1px solid greenyellow; */
+    position: relative;
+
+}
+.white-c{
+    background-color: rgb(248, 247, 245);
+    height: 20%;
+}
+
+.img-div{
+    background-image:url(./uyvmhutn.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    top:15%;
+    left: 10%;
+    /* border: 1px solid rgb(194, 13, 43); */
+    height:75%;
+    width: 35%;
+}
+
+
+.yellow-c{
+    height:80%;
+    background-color: rgb(240,197,11);
+}
+
+.text{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 2%;
+    width: 30%;
+    text-align: center;
+    margin-left: 50%;
+    /* border: 1px solid red; */
+}
